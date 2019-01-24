@@ -36,8 +36,6 @@ public class HelloWorldController {
 		sb.append(String.format("Hello Open Shift, it is %s", ZonedDateTime.now())).append("\r\n");
 		sb.append("================================================================================================")
 				.append("\r\n");
-		sb.append("dummy text 2").append("\r\n");
-
 		sb.append("\r\n");
 		sb.append("System Information").append("\r\n");
 		sb.append("-----------------------------------------------------------------------------------------------")
