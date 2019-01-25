@@ -1,1 +1,1 @@
-server:  port: 8080                   
+server:  port: 8080                    servlet:    session:      cookie:        max-age: -1        name: spring-boot-openshift
