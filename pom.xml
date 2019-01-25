@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>de.nuss.example.openshift</groupId>
 	<artifactId>openshift-spring-boot-hello-world</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<description>Demo project for Openshift</description>
 
 	<properties>
