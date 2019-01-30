@@ -33,7 +33,8 @@ public class HelloWorldController {
 
 		StringBuilder sb = new StringBuilder();
 
-		sb.append(String.format("Hello Open Shift, it is %s", ZonedDateTime.now())).append("\r\n");
+		sb.append(String.format("Hello Open Shift v%s, it is %s", buildProperties.getVersion(), ZonedDateTime.now()))
+				.append("\r\n");
 		sb.append("================================================================================================")
 				.append("\r\n");
 		sb.append("\r\n");
